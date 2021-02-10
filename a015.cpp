@@ -22,7 +22,7 @@ int main()
         }
     }
 
-    for(int row = 0; row < b; row++) 
+    for(int row = 0; row < b; row++) // print row and colum ==> but the other way around. maze[row][i] ==> maze [i][row]
     {
         for(int i = 0; i < a; i++) 
         {
@@ -31,5 +31,6 @@ int main()
         cout << endl; 
     } 
 
+    return 0;
      
 }
