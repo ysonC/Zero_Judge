@@ -9,7 +9,7 @@ int main()
 {
     int a, b;
     cin >> a >> b; // rows ;  column
-    int maze[100][100];
+    int maze[a][b];
 
     if (a > 100 || b > 100)
         return 1;
