@@ -30,7 +30,7 @@ int main ()
             n = 0;
             cout << i;
             if (tmp > i) // prevent last *
-            cout << " * ";
+            cout << " * "; 
         }
     }   
 

@@ -11,8 +11,6 @@ int main()
     cin >> a >> b; // rows ;  column
     int maze[a][b];
 
-    if (a > 100 || b > 100)
-        return 1;
 
     for(int row = 0; row < a; row++) 
     {
@@ -22,13 +20,13 @@ int main()
         }
     }
 
-    for(int row = 0; row < b; row++) // print row and colum ==> but the other way around. maze[row][i] ==> maze [i][row]
+    for(int row = 0; row < b; row++) // print row and column ==> but the other way around. maze[row][i] ==> maze [i][row]
     {
         for(int i = 0; i < a; i++) 
         {
             cout << maze[i][row] << " "; 
         }
-        cout << endl; 
+        if(row!=b-1)cout << endl; 
     } 
 
     return 0;
